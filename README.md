@@ -38,7 +38,7 @@ He/she will be waiting in queue unless the first one is not completed the testin
 Queue will be assigned to next user(here, Murad)
 ![alt text](image/1006.png)
 
-#### But what if some urgent testing is required? Well, then you can choose urgent option. For that admin access will be required, admin can be set up in database by the person hosting it on the server(Please see Adding-Admin-Users.md file).
+#### But what if some urgent testing is required? Well, then you can choose urgent option. For that admin access will be required, admin can be set up in database by the person hosting it on the server(Please see Adding-Admin-Users.md file) or [click here](Adding-Admin-Users.md).
 
 
 ###### Enter the details for the urgent testing.
