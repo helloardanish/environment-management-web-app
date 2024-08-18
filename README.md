@@ -86,13 +86,13 @@ As we can see from the above group messages that even with few team members(10-2
 This web-app solves this problem. Now developers who wants to deploy can see in 1 click whether the deployment queue is available or after whom I can test. They can also see who completed their testing after deployments and who is testing currently and who all are waiting in the queue in 1 click only.
 
 
-#### Because it resolves the developer issues, I've made is open source for you guys.
+#### Because it resolves the developer issues, I've made it open source.
 #### To use this web-app in your system, please open Run-App.md
 
 [Run App In My System](Run-App.md)
 
 
-#### Please keep an eye on docker images for frontend and backend services of this app.
+#### Please keep an eye on updated version over docker images for frontend and backend services of this app.
 
 [Frontend-docker hub](https://hub.docker.com/repository/docker/helloardanish/environment-management-frontend/general)
 --
