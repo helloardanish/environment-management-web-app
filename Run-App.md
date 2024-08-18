@@ -29,7 +29,7 @@ To make service available:
 docker compose up
 
 To take service down:
-docker compose up
+docker compose down
 
 
 To use more command:
