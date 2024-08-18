@@ -5,13 +5,13 @@
 Please see the issues to know why this web-app is developed and which problem it solves [Problems](#issues).
 
 Tools used:  
-![Static Badge](https://img.shields.io/badge/docker-latest-red)
+![Static Badge](https://img.shields.io/badge/docker-4.33.0-red)
 ![Static Badge](https://img.shields.io/badge/java-21-blue)
 ![Static Badge](https://img.shields.io/badge/maven-3.9.8-red)
 ![Static Badge](https://img.shields.io/badge/node-22-red)
 ![Static Badge](https://img.shields.io/badge/Angular-18-red)
-![Static Badge](https://img.shields.io/badge/mongo_db-latest-orange)
-![Static Badge](https://img.shields.io/badge/mongo_express-latest-orange)
+![Static Badge](https://img.shields.io/badge/mongo_db-latest_image-orange)
+![Static Badge](https://img.shields.io/badge/mongo_express-latest_image-orange)
 
 
 ![alt text](image/1000.png)
