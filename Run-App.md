@@ -2,7 +2,7 @@ To run this app in your local machine or over LAN or over WAN please follow the 
 
 Please note docker latest(recommended) or version which support compose v2 must be installed in the system before following below steps:
 
-Step 1: Clone the repo in your local machine.
+Step 1: Clone the repo in your local machine (you can only download the compose.yaml as well as it is the only file which will be used to run the web-app on local/server).
 
 Step 2: Open terminal and go to path where it is cloned.
 
