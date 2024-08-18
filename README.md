@@ -77,7 +77,7 @@ After working in few companies, I see this challenge everywhere. Whenever we hav
 
 ![alt text](image/1022.png)
 
-![alt text](image/1023.png>)
+![alt text](image/1023.png)
 
  
 
