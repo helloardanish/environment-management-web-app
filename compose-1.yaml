@@ -1,0 +1,44 @@
+services:
+  frontend:
+    image: helloardanish/environment-management-frontend:1.0.0
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  backend:
+    image: helloardanish/environment-management-backend:1.0.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    # environment:
+    #   - MONGODB_URI=mongodb://admin:system@mongodb:27017/mydb?authSource=admin
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: system
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: system
+      ME_CONFIG_MONGODB_SERVER: mongodb
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb-data:
