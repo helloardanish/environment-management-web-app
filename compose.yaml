@@ -14,6 +14,8 @@ services:
       - "8080:8080"
     depends_on:
       - mongodb
+    environment:
+      - ALLOWED_ORIGINS=http://192.168.189.82,http://192.168.189.82:80,http://localhost,http://localhost:80
     networks:
       - app-network
 
