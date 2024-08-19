@@ -32,6 +32,17 @@ To take service down:
 docker compose down
 
 
+Please note using volume is recommended as if you don't use volume, db data will be lost on every restart.
+volumes:
+      # volume is used to save the db data even when container is down
+      # this way you'll not lose the data unless docker volume is deleted
+      # use docker volume preferred
+      - mongodb-data:/data/db
+      # - /Users/helloardanish/Documents/.../:/data/db
+      # If you don't want to use docker volume so you use external storage as well by giving path to that
+      # </Users/helloardanish/Documents/.../>:/data/db (Like this replace to your path)
+
+
 To use more command:
 [Comand](command.md)
 

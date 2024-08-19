@@ -30,6 +30,7 @@ services:
       - "27017:27017"
     volumes:
       - mongodb-data:/data/db
+      # - /Users/helloardanish/Documents/.../:/data/db
     networks:
       - app-network
 
