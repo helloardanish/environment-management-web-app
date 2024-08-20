@@ -12,7 +12,7 @@ password: **pass**
 
 unless you configured it different.
 
-You should be able to access now.
+You should be able to access db now.
 
 ![alt text](image/1007.png)
 
