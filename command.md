@@ -4,7 +4,10 @@
 
 First time running:
 
-docker compose up
+**docker compose up --build**
+
+use the same above command when any changes is made in the compose file to make new build otherwise change may not be reflected due to docker cache
+
 ![alt text](image/001.png)
 
 ![alt text](image/002.png)
