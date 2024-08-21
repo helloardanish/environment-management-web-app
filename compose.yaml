@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: helloardanish/environment-management-frontend:1.0.1
+    image: helloardanish/environment-management-frontend:latest
     ports:
       - "80:80"
     depends_on:
@@ -9,7 +9,7 @@ services:
       - app-network
 
   backend:
-    image: helloardanish/environment-management-backend:1.0.1
+    image: helloardanish/environment-management-backend:latest
     ports:
       - "8080:8080"
     depends_on:
