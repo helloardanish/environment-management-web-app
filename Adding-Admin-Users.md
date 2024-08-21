@@ -4,6 +4,16 @@ Step 1: Access mongodb using mongo-express on browser and add new collections ad
 
 Access mongo-express using http://localhost:8081/
 
+If authentication popup use below credentials:
+
+username: **admin**
+
+password: **pass**
+
+unless you configured it different.
+
+You should be able to access db now.
+
 ![alt text](image/1007.png)
 
 Got to userqueue database.
